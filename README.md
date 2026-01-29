@@ -1,1 +1,1 @@
-# EnterpriseApplication2026
+# Rust lecture in Dongduk Univ.

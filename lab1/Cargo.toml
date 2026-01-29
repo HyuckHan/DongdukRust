@@ -1,0 +1,44 @@
+[package]
+name = "lab1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "fixme1"
+path = "src/fixme1.rs"
+
+[[bin]]
+name = "fixme2"
+path = "src/fixme2.rs"
+
+[[bin]]
+name = "fixme3"
+path = "src/fixme3.rs"
+
+[[bin]]
+name = "fixme4"
+path = "src/fixme4.rs"
+
+[[bin]]
+name = "fixme5"
+path = "src/fixme5.rs"
+
+[[bin]]
+name = "fixme6"
+path = "src/fixme6.rs"
+
+[[bin]]
+name = "fixme7"
+path = "src/fixme7.rs"
+
+[[bin]]
+name = "fixme8"
+path = "src/fixme8.rs"
+
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
