@@ -1,0 +1,52 @@
+[package]
+name = "lab2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "move_semantics1"
+path = "src/move_semantics/move_semantics1.rs"
+
+[[bin]]
+name = "move_semantics2"
+path = "src/move_semantics/move_semantics2.rs"
+
+[[bin]]
+name = "move_semantics3"
+path = "src/move_semantics/move_semantics3.rs"
+
+[[bin]]
+name = "move_semantics4"
+path = "src/move_semantics/move_semantics4.rs"
+
+[[bin]]
+name = "slices1"
+path = "src/slices/slices1.rs"
+
+[[bin]]
+name = "slices2"
+path = "src/slices/slices2.rs"
+
+[[bin]]
+name = "slices3"
+path = "src/slices/slices3.rs"
+
+[[bin]]
+name = "strings1"
+path = "src/strings/strings1.rs"
+
+[[bin]]
+name = "strings2"
+path = "src/strings/strings2.rs"
+
+[[bin]]
+name = "strings3"
+path = "src/strings/strings3.rs"
+
+[[bin]]
+name = "strings4"
+path = "src/strings/strings4.rs"

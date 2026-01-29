@@ -1,0 +1,16 @@
+/// Make me compile by ONLY reordering the lines in `get_in_line()`,
+/// but without adding, changing or removing any of them.
+/// Hint: You only need to reorder 1 line.
+
+fn get_in_line() {
+    let mut x = 100;
+    let y = &mut x;
+    let z = &mut x;
+    *y += 100;
+    *z += 1000;
+    assert_eq!(x, 1200);
+}
+
+fn main() {
+    get_in_line();
+}

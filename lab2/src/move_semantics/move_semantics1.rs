@@ -1,0 +1,22 @@
+/// Make me compile!
+/// Hint: What does the compiler tell you?
+
+fn gimme_one_more() {
+    let vec0 = vec![22, 44, 66];
+
+    let vec1 = fill_vec(vec0);
+
+    assert_eq!(vec1, vec![22, 44, 66, 88]);
+}
+
+fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
+    let vec = vec;
+
+    vec.push(88);
+
+    vec
+}
+
+fn main() {
+    gimme_one_more();
+}
