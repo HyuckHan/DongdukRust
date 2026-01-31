@@ -39,5 +39,3 @@ pub trait Summary {
 
     fn get_info(&self) -> String;
 }
-
-//pub mod reader;

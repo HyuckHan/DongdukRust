@@ -1,4 +1,3 @@
-//mod reader;
 use crate::reader::Summary;
 use crate::reader::Reader;
 use std::io;
