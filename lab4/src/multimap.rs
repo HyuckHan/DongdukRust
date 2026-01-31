@@ -11,8 +11,6 @@ use std::hash::Hash;
 /// # Examples
 ///
 /// ```rust
-/// # use multilab::multimap::MultiMap;
-/// #
 /// let mut multimap = MultiMap::new();
 /// multimap.insert(1, "hello");
 /// multimap.insert(1, "world");

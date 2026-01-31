@@ -1,7 +1,7 @@
 mod multiset;
-use multiset::MultiSet;    
+use crate::multiset::MultiSet;
 mod multimap;
-use multimap::MultiMap;    
+use crate::multimap::MultiMap;    
 
 fn main() {
     test_insert_remove_basic();

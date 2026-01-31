@@ -9,7 +9,7 @@ use std::hash::Hash;
 /// # Examples
 ///
 /// ```
-/// # use multilab::multiset::MultiSet;
+/// # use multiset::MultiSet;
 /// #
 /// let mut words = MultiSet::new();
 /// words.insert("hello");
